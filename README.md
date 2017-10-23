@@ -1,2 +1,2 @@
 # TRPGTest
-A basic game for testing TRPGMaker
+A basic game to test TRPGMaker
