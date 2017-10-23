@@ -18,7 +18,7 @@ public class Painter{
     public void paintCells(Cell cell, Skill skill, IsoTexture color, Entity entity = null)
     {
         Vector2 position = cell.Map.getCoords(cell.gameObject);
-
+        
         changedCells = new Cell[((skill.getDistance() * 2) + 1) * ((skill.getDistance() * 2) + 1)];
         oldTextures = new IsoTexture[((skill.getDistance() * 2) + 1) * ((skill.getDistance() * 2) + 1)];
         int contador = 0;
