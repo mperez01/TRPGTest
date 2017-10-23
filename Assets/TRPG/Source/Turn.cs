@@ -47,7 +47,7 @@ public class Turn: EventedEventManager
         foreach (TRPGCharacter charac in characters)
             if (charac.playable)
                 playableCharacters++;
-                
+        
         while (contador > 2)
         {
             //Ordenar la lista de characters segun su "velocidad" o agilidad...
